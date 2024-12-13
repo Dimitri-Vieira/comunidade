@@ -3,7 +3,6 @@ class Usuario < ApplicationRecord
     # ou
     # has_many :postes, class_name: "Post"
 
-    validates :email, presence: true, uniqueness: true
-    validates :nome, presence: true
-    validates :senha, presence: true
+    validates :email, uniqueness: true
+    validates :nome, :email, :senha, presence: true
 end
