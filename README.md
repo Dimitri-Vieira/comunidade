@@ -1,24 +1,11 @@
-# README
+# Comunidade - Projeto em Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este projeto foi criado com o intuito de realizar meu primeiro programa em Ruby e também usando o Ruby On Rails (framework de Ruby para desenvolvidmento web).
+## Tasks para concluir o projeto:
+- Criar autenticação com email e senha.
 
-Things you may want to cover:
+- Criar rotas e protegê-las para acesso apenas após autenticação de email e senha.
 
-* Ruby version
+- Bloquear as rotas de criação/edição/exclusão de post e usuário.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Escrever teste para rotas criadas para garantir que a API esteja funcionando corretamente.
